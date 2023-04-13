@@ -1,0 +1,106 @@
+$colorTexto: #878787;
+
+.news{
+    padding: 20px 100px;
+    color: $colorTexto;
+
+    @media screen and (max-width: 575px){
+        padding: 20px;
+    }
+
+    .feed-filtro{
+        background: #fff;
+        font-weight: 300;
+        padding: 20px;
+        
+        .titulo{
+            display: flex;
+            gap: 10px;
+            
+            p{
+                display: inline-block;
+            }
+        }
+        
+        hr{
+            margin: 0px;
+        }
+
+        .filtro{
+            padding: 10px 0;
+            button{
+                background: transparent;
+                outline: none!important;
+                border: none;
+                text-align: left;
+                font-weight: 300;
+                color: $colorTexto;
+
+                i{
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    .noticias{
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+
+        @media screen and (max-width: 575px){
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: 800px){
+            margin-top: 20px;
+        }
+
+        .noticias-cuerpo{
+            background: #fff;
+            padding: 20px;
+            text-transform: none;
+            margin-bottom: 20px;
+
+            h2{
+                font-size: 1.5rem;
+            }
+            p{
+                margin: 0;
+                font-size: .9rem;
+            }
+            
+            .imagen{
+                margin: 15px 0;
+                img{
+                    display: block;
+                    margin: auto;
+                }
+            }
+
+            .noticia-parrafo{
+                p{
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+
+    .recomendados{
+        background: #fff;
+        padding: 20px;
+        font-weight: 300;
+        margin-top: 40px;
+
+        @media screen and (max-width: 575px){
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: 800px){
+            margin-top: 20px;
+        }
+    }
+}

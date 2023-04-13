@@ -1,0 +1,25 @@
+$bgColor: #20A6FC;
+
+header{
+    padding: 20px 70px;
+    background: $bgColor;
+    color: #fff;
+
+    @media screen and (max-width: 575px){
+        padding: 20px 40px;
+    }
+
+    h1{
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        // font-weight: bold;
+        letter-spacing: 7px;
+    }
+
+    button{
+        background: none;
+        border: none;
+        color: #fff;
+        outline: none!important;
+    }
+}
